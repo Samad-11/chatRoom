@@ -1,8 +1,8 @@
 import prisma from "@/lib/prisma";
-
 import CredentialsProvider from "next-auth/providers/credentials";
 import * as bcrypt from 'bcrypt'
 import { AuthOptions } from "next-auth";
+
 export const authOptions: AuthOptions = {
     secret: process.env.NEXTAUTH_SECRET,
     theme: {
