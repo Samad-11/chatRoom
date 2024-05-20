@@ -66,7 +66,7 @@ export default function Home() {
     setText('')
   }
   return (
-    <main className="mx-10 p-4 border border-emerald-400 relative h-screen  max-w-screen">
+    <main className="mx-10 p-4  relative h-screen  max-w-screen">
       <h1 className="text-center">Welcome to BaatCheet</h1>
 
       <div className=" w-[80%] h-[85%] carousel carousel-vertical rounded-box
