@@ -14,9 +14,9 @@ export default function Home() {
   );
   const [isConnected, setIsConnected] = useState(false);
   const [inbox, setInbox] = useState<string[]>([])
-  const [savedChats, setSavedChats] = useState<chats[]>()
-  const [time, setTime] = useState<number[]>([])
-  const [text, setText] = useState('')
+  const [savedChats, setSavedChats] = useState<chats[]>();
+  const [time, setTime] = useState<number[]>([]);
+  const [text, setText] = useState('');
 
 
   useEffect(() => {
